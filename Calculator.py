@@ -1,26 +1,26 @@
 class Calculator :
 # This function adds two numbers
-	def add(x, y):
+	def add(self, x, y):
    		return x + y
 
 # This function subtracts two numbers
-	def subtract(x, y):
+	def subtract(self, x, y):
    		return x - y
 
 # This function multiplies two numbers
-	def multiply(x, y):
+	def multiply(self, x, y):
    		return x * y
 
 # This function divides two numbers
-	def divide(x, y):
+	def divide(self, x, y):
    		return x / y
 
 # This function squares one number 
-	def square_number (x): 
+	def square_number (self, x): 
     		return x ** 2
 
 # This function derives the square root of a number 
-	def square_root(x):
+	def square_root(self, x):
     		return x**0.5
 
 if __name__ == "__main__":
